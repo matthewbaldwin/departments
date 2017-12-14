@@ -1,0 +1,31 @@
+FORMAT: 1A
+HOST: http://departments.apiblueprint.org/
+
+# Department Codes
+
+RFP Category is a simple API for providing Department Codes for an RFP.
+
+## Department Collection [/departments]
+
+### List All Department Codes [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "DepartmentDesc": "Sewer",
+                "id": 9002
+            }, 
+            {
+                "DepartmentDesc": "Gas Department",
+                "id": 10000
+            }, 
+            {
+                "DepartmentDesc": "Parks and Recreation",
+                "id": 512
+            },
+            {
+                "DepartmentDesc": "Water",
+                "id": 25
+            }   
+        ]
